@@ -1,0 +1,276 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 232, 232, 0);
+}
+
+#mainbody,#teacherpage{
+    width: 80%;
+    background-color: #e3f1ff;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#projectlist{
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 5%
+}
+
+#loginpage,#three,#two,#one,#threewu,#threeli,#threedu{
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#linkthree1,#linktwo1,#linkone1,#linkthreewu1,#linkthreeli1,#linkthreedu1,#linktwowu1,#linktwoli1,#linktwodu1,#linkonewu1,#linkoneli1,#linkonedu1{
+    margin-bottom: 5px;
+}
+
+#threewuword,#judgereasonwu,#threeliword,#judgereasonli,#threeduword,#judgereasondu{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#teacherjudgewu,#teacherjudgeli,#teacherjudgedu{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: "宋体";
+    font-size: 16px;
+    color: #000000;
+}
+a.hover{
+    text-decoration:underline;
+    font-size: 18px;
+    background-color: #2fb5ff;
+}
+a:active {
+    text-decoration:underline;
+    font-size: 18px;
+    background-color: #2fb5ff;
+}
+a:visited {
+    text-decoration: none;
+    font-family: "宋体";
+    font-size: 16px;
+    color: #000000;
+}
+
+section {
+    display: none;
+    width: 90%;
+    height: 20%;
+
+}
+
+section.selected {
+    display: block;
+}
+
+.warning {
+    color: red;
+}
+
+
+#截止日期 {
+    float: left;
+    height: 50px;
+    width: 115px;
+    border: 1px solid #000;
+}
+#作业提交 #文本提交 {
+    float: left;
+}
+#满分 {
+    float: left;
+    border: 1px solid #000;
+    height: 50px;
+    width: 120px;
+    margin-left: 50px;
+}
+#写入提交 {
+    margin-left: 70px;
+
+}
+#附加文件 {
+    float: left;
+}
+#scan{
+    margin-left: 70px;
+    float: left;
+}
+#作业提交 #注释文本框 {
+    float: left;
+    margin-left: 70px;
+    background-color: #CCC;
+    width:450px;
+    height:100px;
+}
+
+
+
+
+#title {
+    font-family: "黑体";
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#form1 {
+    border: 2px solid #000000;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-top: 30px;
+}
+
+#form2 {
+    border: 2px solid #000000;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-top: 30px;
+}
+#teaReview{
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 140px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+
+.form1dbuttom {
+    font-size: 14px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.form1zbuttom {
+    font-size: 14px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.yhead {
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    margin-left: 0%;
+    background-color: #FFFFFF;
+    text-align: right;
+    height: 10%;
+    width: 100%;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    visibility: visible;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+
+#score {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.comment {
+    background-color: #E8E8E8;
+    height: 200px;
+    padding: 3px;
+}
+
+#commentInput {
+    margin-left: 10%;
+    margin-right: 10px;
+    width: 80%;
+}
+
+.teaReview {
+    margin-left: 800px;
+}
+
+.container {
+    left: 15%;
+    right: 15%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.form2buttom {
+    text-decoration: underline;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.mainbody {
+    height: 100%;
+    width: 80%;
+    background-color: #FFFFFF;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-left: auto;
+}
+
+#stuhomeworklist {
+    align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#homeworkdetail {
+    height: 800px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#submitbutton {
+    height:40px;
+    width: 80px;
+}
+
+#homeworkfile {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.STYLE1 {
+    font-family: "宋体";
+    font-size: 18px;
+}
+
+.STYLE2 {
+    font-size: 36px
+}
